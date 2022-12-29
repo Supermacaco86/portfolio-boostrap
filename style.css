@@ -43,6 +43,21 @@ h1 {
     font-family: 'Raleway', sans-serif;
 }
 
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.seccion-texto {
+    font-size: 1.4rem;
+}
+
 /* Seccion Hero */
 
 .hero {
@@ -70,6 +85,18 @@ h1 {
 .hero-principal h2 {
     font-size: 1.5rem;
     color: #120837;
+}
+
+/* Sobre mi */
+
+.sobre-mi {
+    height: 900px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 900px;
+    text-align: center;
 }
 
 /* Adaptable responsivo */
